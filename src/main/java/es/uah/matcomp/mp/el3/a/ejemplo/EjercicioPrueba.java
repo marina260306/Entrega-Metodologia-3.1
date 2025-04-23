@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Ejercicio2 {
+public class EjercicioPrueba {
 
     public static <T> T cargarObjetoDesdeArchivo(String rutaArchivo, Class<T> clase) {
         Gson gson = new Gson();
@@ -28,12 +28,9 @@ public class Ejercicio2 {
 
 
     public static void main(String[] args) {
-        System.out.println("hola mundo");
         String operacion = args[0];
         String fichero = args[1];
-        System.out.println(operacion);
-        System.out.println(fichero);
-        System.out.println(operacion== "show");
+
         if (operacion.equals("init")) {
             Alumno alumno = new Alumno("Paula", 13, 7.0);
             guardarObjetoEnArchivo(fichero, alumno);
