@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="matcomp.mp.el3.a.ejemplo:jar3">
+    <output-path>$PROJECT_DIR$/out/artifacts/matcomp_mp_el3_a_ejemplo_jar3</output-path>
+    <root id="archive" name="matcomp.mp.el3.a.ejemplo.jar">
+      <element id="module-output" name="matcomp.mp.el3.a.ejemplo" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/gson-2.10.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
