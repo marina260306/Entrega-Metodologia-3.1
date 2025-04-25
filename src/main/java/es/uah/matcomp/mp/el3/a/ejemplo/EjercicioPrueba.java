@@ -32,8 +32,8 @@ public class EjercicioPrueba {
         String fichero = args[1];
 
         if (operacion.equals("init")) {
-            Alumno alumno = new Alumno("Paula", 13, 7.0);
-            guardarObjetoEnArchivo(fichero, alumno);
+            Estudiante estudiante = new Estudiante("Paula");
+            guardarObjetoEnArchivo(fichero, estudiante);
 
         } else if (operacion.equals("show")) {
             Usuario usuario = cargarObjetoDesdeArchivo(fichero, Usuario.class);

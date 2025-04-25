@@ -34,17 +34,17 @@ public class Main {
     // Método para crear el archivo con datos por defecto
     public static void init(String fichero) {
         // Crear algunos alumnos por defecto
-        Alumno alumno1 = new Alumno("Juan", 20, 8.5);
-        Alumno alumno2 = new Alumno("Lucía", 22, 9.3);
-        Alumno alumno3 = new Alumno("Carlos", 19, 7.8);
+        Estudiante estudiante1 = new Estudiante("Juan");
+        Estudiante estudiante2= new Estudiante("Lucía");
+        Estudiante estudiante3 = new Estudiante("Carlos");
 
         // Crear una lista de alumnos
-        List<Alumno> alumnos = List.of(alumno1, alumno2, alumno3);
+        List<Estudiante> estudiantes = List.of(estudiante1, estudiante2, estudiante3);
 
         // Guardar la lista de alumnos en un archivo JSON
         Gson gson = new Gson();
         try (FileWriter writer = new FileWriter(fichero)) {
-            gson.toJson(alumnos, writer);
+            gson.toJson(estudiantes, writer);
             System.out.println("Archivo creado con datos por defecto.");
         } catch (IOException e) {
             e.printStackTrace();

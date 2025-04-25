@@ -4,14 +4,14 @@ public class Usuario {
     public String nombre;
     public int edad;
     public String correo;
-    public Alumno alumno;
+    public Estudiante estudiante;
     public String[] array;
 
     public Usuario(String nombre, int edad, String correo) {
         this.nombre = nombre;
         this.edad = edad;
         this.correo = correo;
-        this.alumno = new Alumno("Raquel", 6, 3);
+        this.estudiante = new Estudiante("Raquel");
         this.array = new String[3];
         this.array[0] = nombre;
     }
