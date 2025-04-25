@@ -32,7 +32,7 @@ public class EjercicioPrueba {
         String fichero = args[1];
 
         if (operacion.equals("init")) {
-            Estudiante estudiante = new Estudiante("Paula");
+            Estudiante estudiante = new Estudiante("Paula", 20, 8.5);
             guardarObjetoEnArchivo(fichero, estudiante);
 
         } else if (operacion.equals("show")) {

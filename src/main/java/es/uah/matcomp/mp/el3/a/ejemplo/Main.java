@@ -34,9 +34,9 @@ public class Main {
     // Método para crear el archivo con datos por defecto
     public static void init(String fichero) {
         // Crear algunos alumnos por defecto
-        Estudiante estudiante1 = new Estudiante("Juan");
-        Estudiante estudiante2= new Estudiante("Lucía");
-        Estudiante estudiante3 = new Estudiante("Carlos");
+        Estudiante estudiante1 = new Estudiante("Juan", 20, 8.5);
+        Estudiante estudiante2= new Estudiante("Lucía", 20, 8.5);
+        Estudiante estudiante3 = new Estudiante("Carlos", 20, 8.5);
 
         // Crear una lista de alumnos
         List<Estudiante> estudiantes = List.of(estudiante1, estudiante2, estudiante3);

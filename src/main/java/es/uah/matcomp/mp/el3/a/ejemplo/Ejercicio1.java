@@ -15,7 +15,7 @@ public class Ejercicio1 {
     }
     public static void main(String[] args) {
         Usuario usuario = new Usuario("Marta", 17, "marta@gmail.com");
-        Estudiante estudiante= new Estudiante("Miguel");
+        Estudiante estudiante= new Estudiante("Miguel", 20, 8.5);
         guardarObjetoEnArchivo("C:\\Users\\marin\\IdeaProjects\\Entrega-Metodologia-3.1\\src\\main\\resources\\usuario.json", usuario);
         guardarObjetoEnArchivo("C:\\Users\\marin\\IdeaProjects\\Entrega-Metodologia-3.1\\src\\main\\resources\\alumno.json", estudiante);
 

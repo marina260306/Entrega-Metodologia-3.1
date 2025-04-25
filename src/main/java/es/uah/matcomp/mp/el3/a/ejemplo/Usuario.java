@@ -11,7 +11,7 @@ public class Usuario {
         this.nombre = nombre;
         this.edad = edad;
         this.correo = correo;
-        this.estudiante = new Estudiante("Raquel");
+        this.estudiante = new Estudiante("Raquel", 20, 8.5);
         this.array = new String[3];
         this.array[0] = nombre;
     }

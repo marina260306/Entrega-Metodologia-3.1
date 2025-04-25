@@ -58,7 +58,7 @@ public class Alumno {
     }
 
     // Clase Estudiante
-    static class Estudiante {
+    public static class Estudiante {
         private String nombre;
         private int edad;
         private double nota;
@@ -80,7 +80,7 @@ public class Alumno {
     }
 
     // Clase Asignatura
-    static class Asignatura {
+    public static class Asignatura {
         private String nombre;
         private List<Estudiante> estudiantes;
 
